@@ -18,6 +18,7 @@ class Artist
   end
   
   def genres
+    songs.collect {|s| s.genre}
   end
   
 end
