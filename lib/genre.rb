@@ -6,7 +6,7 @@ class Genre
   
   def initialize(name)
     @name = name
-    @@all << self
+    self.class.all << self
   end
   
   def self.all
@@ -14,10 +14,34 @@ class Genre
   end
   
   def songs
-    Song.all.select{|s| s.genre == self}
+    Song.all.select {|s| s.genre == self}
   end
   
   def artists
-    songs.collect{|s| s.artist}
+    songs.collect {|s| s.artist}
   end
 end
+
+# class Genre
+  
+#   attr_accessor :name
+  
+#   @@all = []
+  
+#   def initialize(name)
+#     @name = name
+#     @@all << self
+#   end
+  
+#   def self.all
+#     @@all
+#   end
+  
+#   def songs
+#     Song.all.select{|s| s.genre == self}
+#   end
+  
+#   def artists
+#     songs.collect{|s| s.artist}
+#   end
+# end
