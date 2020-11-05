@@ -1,3 +1,30 @@
+class Genre
+  
+  def initialize(name)
+    @name = name
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # class Genre
   
 #   attr_accessor :name
