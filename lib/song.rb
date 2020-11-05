@@ -16,29 +16,6 @@ class Song
   
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # class Song
   
 #   attr_accessor :name, :artist, :genre
