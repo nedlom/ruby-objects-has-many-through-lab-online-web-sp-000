@@ -22,26 +22,6 @@ class Genre
   end
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # class Genre
   
 #   attr_accessor :name
